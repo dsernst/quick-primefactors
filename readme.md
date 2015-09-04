@@ -26,8 +26,11 @@ console.log(pf(51)); // [3, 17]
 console.log(pf(100)); // [2, 2, 5, 5]
 
 // More challenging examples
-console.log(pf(3000000)); // [2, 2, 2, 2, 2, 2, 3, 5, 5, 5, 5, 5, 5], takes less than 500 milliseconds
-console.log(pf(2987000)); // [2, 2, 2, 5, 5, 5, 29, 103] takes less than 0.5 milliseconds
+console.log(pf(3000000)); // [2, 2, 2, 2, 2, 2, 3, 5, 5, 5, 5, 5, 5]
+  // took less than 0.5 seconds
+
+console.log(pf(2987000)); // [2, 2, 2, 5, 5, 5, 29, 103]
+  // took less than 0.0005 seconds
 ```
 
 This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the number you're testing is larger than the currently cached sieve's upper bound.
