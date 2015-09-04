@@ -1,0 +1,34 @@
+{
+  "name": "quick-primefactors",
+  "version": "0.0.1",
+  "description": "Quickly get a number's prime factors, using a cached Sieve of Eratosthenes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsernst/quick-primefactors.git"
+  },
+  "keywords": [
+    "quick",
+    "prime",
+    "factors",
+    "sieve"
+  ],
+  "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsernst/quick-primefactors/issues"
+  },
+  "homepage": "https://github.com/dsernst/quick-primefactors#readme",
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "lodash.find": "^3.2.1",
+    "lodash.indexby": "^3.1.1",
+    "sieve-of-eratosthenes": "0.0.2"
+  }
+}
