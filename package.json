@@ -1,6 +1,6 @@
 {
   "name": "quick-primefactors",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quickly get a number's prime factors, using a cached Sieve of Eratosthenes",
   "main": "index.js",
   "scripts": {
